@@ -53,7 +53,7 @@ const Chats = () => {
             getFile(user.photoURL).then((avatar) => {
                 formdata.append('avatar', avatar, avatar.name);
 
-                axios.post('https:api.chatengine.io/users/', 
+                axios.post('https://api.chatengine.io/users/', 
                     formdata, 
                     { headers: { 'private-key': process.env.REACT_APP_CHAT_ENGINE_KEY } }
                 )
@@ -74,14 +74,14 @@ const Chats = () => {
                 <div onClick={handleLogout} className="logout-tab">
                     Logout
                 </div>
-
-                <ChatEngine 
-                    height="calc(100vh-66px)"
-                    projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
-                    userName={user.email}
-                    userSecret={user.uid}
-                />
             </div>
+
+            <ChatEngine 
+                height="calc(100vh-66px)"
+                projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
+                userName={user.email}
+                userSecret={user.uid}
+            />
         </div>
      );
 }

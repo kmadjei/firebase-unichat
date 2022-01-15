@@ -12,7 +12,7 @@ export const useAuth = () => useContext(AuthContext);
 // children ??
 export const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true)
-    const [user, setUser] =useState(null);
+    const [user, setUser] = useState(null);
     const history = useHistory();
 
     useEffect(() => {
