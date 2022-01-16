@@ -1,40 +1,46 @@
 # Firebase Unichat
 
-One or two paragraphs providing an overview of your project.
+Welcome to the chat application powered by Firebase, React JS, and Chat Engine API. The features of this application includes realtime chat functionality, social authentication, image support, sound notifications, and the ability to create multiples chat rooms.
 
-Essentially, this part is your sales pitch.
 👉[View Deployed Project](https://firebase-unichat.netlify.app/)🚀 
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Developer's goal
+- Learn to build a chat web application using React in the front end and Firebase serving the backend
+- Gain practical knowledge in the best practices of using React to build reusable components
+    + Objectives to be met includes:
+        * Understanding of React Routing and React Context hooks
+        * Firebase integration as database and for social authentication
+        * Integration of Chat Engine REST API
+        * Making REST API calls in react using Axios module
+        * Using environment variables to hide sensitive data
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### User Stories
+- As a first time visitor, I want to receive notification confirming it is me siging up via the social authentication
+- As regular user, I should be able to join a chat room, so that I can engaged with other users
+- As the creator of a chat-room, I have the ability to add new users to the chat room, so they can participate in the activities
+- All users should be able to view current status members in the current chat room joined
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Social Authentication buttons - allows the users to login or sign-up via their google or facebook credentials
+- Sound notifications - allows users, engaged in chats, to be alerted if activities are taking place in a chat room
+- User Status - allows for users to view current status of participants in a chat room
+- Avatar images - allows for users to view an image representation of chart participants
+- My Chats Add Button - allows for the creation of chat rooms
+- Log out button - allows for users to end their session
 
 ### Features Left to Implement
-- Another feature idea
+- Chat application needs to be adjusted for different device with media queries
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [React JS](https://reactjs.org/)
+    * The project uses **JQuery** to simplify DOM manipulation.
 
 
 ## Testing
