@@ -3,7 +3,8 @@
 Welcome to the chat application powered by Firebase, React JS, and Chat Engine API. The features of this application includes realtime chat functionality, social authentication, image support, sound notifications, and the ability to create multiples chat rooms.
 
 👉[View Deployed Project](https://firebase-unichat.netlify.app/)🚀 
-<a href="" target="_blank">👉View Deployed Project🚀</a>
+
+<a href="https://firebase-unichat.netlify.app/" target="_blank">👉View Deployed Project🚀</a>
  
 ## UX
 
