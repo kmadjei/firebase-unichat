@@ -3,6 +3,7 @@
 Welcome to the chat application powered by Firebase, React JS, and Chat Engine API. The features of this application includes realtime chat functionality, social authentication, image support, sound notifications, and the ability to create multiples chat rooms.
 
 👉[View Deployed Project](https://firebase-unichat.netlify.app/)🚀 
+<a href="" target="_blank">👉View Deployed Project🚀</a>
  
 ## UX
 
@@ -37,10 +38,12 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [React JS](https://reactjs.org/)
+    - The project uses **React JS** to reusable UI components to simplify scalability of web app.
 
 - [React JS](https://reactjs.org/)
-    * The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **React JS** to reusable UI components to simplify scalability of web app.
+
 
 
 ## Testing
