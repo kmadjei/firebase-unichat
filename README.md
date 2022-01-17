@@ -5,6 +5,7 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 👉[View Deployed Project](https://firebase-unichat.netlify.app/)🚀 
  
 
+
 ## UX
 
 ### Developer's goal
@@ -24,6 +25,7 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 - All users should be able to view current status members in the current chat room joined
 
 
+
 ## Features
  
 ### Existing Features
@@ -36,6 +38,7 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ### Features Left to Implement
 - Chat application needs to be adjusted for different device with media queries
+
 
 
 ## Technologies Used
@@ -57,6 +60,7 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 - [Firebase](https://firebase.google.com/?gclid=Cj0KCQiAoY-PBhCNARIsABcz773A-bXdKNQCUUyOzVuLYuDWRCamvu0O7k0cwFPE_c2f_leufaF2ZY0aAqEDEALw_wcB&gclsrc=aw.ds)
     - **Firebase** is used as the backend for handling the social authentication of the app.
+
 
 
 ## Testing
@@ -82,6 +86,7 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
     - Need to implement media queries to resolve the issue
 
 
+
 ### UX tests
 
 - User first visit to the website:
@@ -95,6 +100,7 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
         - creator of a chatroom adds new user participant successfully
             + all chatroom participants are able to view each other's avatar, email ID, and current status
         - sound notification activates while user is away from current chatroom activity
+
 
 
 ## Deployment
