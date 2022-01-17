@@ -13,11 +13,11 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
         * Understanding of React Routing and React Context hooks
         * Firebase integration as database and for social authentication
         * Integration of Chat Engine REST API
-        * Making REST API calls in react using Axios module
+        * Making REST API calls in React using Axios module
         * Using environment variables to hide sensitive data
 
 ### User Stories
-- As a first time visitor, I want to receive notification confirming it is me siging up via the social authentication
+- As a first time visitor, I want to receive notification confirming it is me signing up via the social authentication
 - As regular user, I should be able to join a chat room, so that I can engaged with other users
 - As the creator of a chat-room, I have the ability to add new users to the chat room, so they can participate in the activities
 - All users should be able to view current status members in the current chat room joined
@@ -57,7 +57,6 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ## Testing
 
-
 ### Bugs Found During Coding
 
 - When testing the google social login for the first time no logout button was seen along with the expected page title
@@ -81,13 +80,17 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ### UX tests
 
-- ??
+- User first visit to the website:
+    - Chooses one of the social login option
+    - User gets prompt message to confirm if he or she is the actual personnel logging into the application
+    - Upon entering wrong credentials, user is reported to have the wrong access to their site and is redirected back to the homepage
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Upon successful login:
+    - user is able to view active chat rooms 
+    - user creates a chatroom successfully when the add button is selected
+        - creator of a chatroom adds new user participant successfully
+            - all chatroom participants are able to view each other's avatar, email ID, and current status
+        - sound notification activates while user is away from current chatroom activity
 
 ## Deployment
 
