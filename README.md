@@ -57,6 +57,32 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ## Testing
 
+
+### Bugs Found During Coding
+
+- When testing the google social login for the first time no logout button was seen along with the expected page title
+    - Upon logging in screen only showed a white screen with a welcome message and an animated icon of a hand during development stage of the React server
+    - Ended the local server with `ctrl + c`, cleared all browsing history and data within 24 hours, and checked Chat.js component
+    - Issue was resolved by moving `<ChatEngine height="calc(100vh-66px)" />` outside the div containing the logout button
+- When testing facebook social login, there was a message prompt showing that the App was being accessed from an unsecure server and that the facebook authentication security settings needed to be updated for the app.
+    - To resolve this, all **Client OAuth settings** in the facebook app as *unichatmessenger* was updated to yes under the Facebook Login settings section (except for `Force Web OAuth reauthentication`).
+    - Previous step did not resolve the situation after running local development server with `npm start`.
+    - Next action taken was by making local server run as ***https*** protocol instead of ***http***.
+        - This was accomplished by following a YouTube video tutorial to create an SSL ticket for localhost 
+            - [Setup HTTPS in Development With Create React App](https://www.youtube.com/watch?v=neT7fmZ6sDE)
+        - This resolved the situation after confirming the login of the facebook social authentication on local development environment
+
+### Cross-platform Compatibility
+
+- Launching the chat application function as it should on Chrome and Microsoft Edge
+- The chat app failed device responsiveness test for different screen sizes on both platform
+    - Need to implement media queries to resolve the issue
+
+
+### UX tests
+
+- ??
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -97,5 +123,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- Thanks to the JavaScript Mastery YouTube channel, I have been able to expand my practical knowledge on using React to build awesome web apps.
+- Thanks to the [JavaScript Mastery YouTube channel](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A), I have been able to expand my practical knowledge on using React to build awesome web apps.
 
