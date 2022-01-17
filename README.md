@@ -3,8 +3,6 @@
 Welcome to the chat application powered by Firebase, React JS, and Chat Engine API. The features of this application includes realtime chat functionality, social authentication, image support, sound notifications, and the ability to create multiples chat rooms.
 
 👉[View Deployed Project](https://firebase-unichat.netlify.app/)🚀 
-
-<a href="https://firebase-unichat.netlify.app/" target="_blank">👉View Deployed Project🚀</a>
  
 ## UX
 
@@ -39,13 +37,23 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ## Technologies Used
 
-- [React JS](https://reactjs.org/)
-    - The project uses **React JS** to reusable UI components to simplify scalability of web app.
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+    - The project uses **CSS** to style the web page.
+
+- [HTML](https://www.w3schools.com/css/css_intro.asp)
+    - The project uses **HTML** to construct the web page elements.
+
+- [JavaScript](https://www.w3schools.com/js/js_intro.asp)
+    - The project uses **JavaScript** to manipulate the DOM elements of the application.
 
 - [React JS](https://reactjs.org/)
-    - The project uses **React JS** to reusable UI components to simplify scalability of web app.
+    - The project uses **React JS** to build reusable UI components to simplify scalability of the web app.
 
+- [Chat Engine](https://chatengine.io/)
+    - The **Chat Engine** API is used to build the Chat functionality of the web application.
 
+- [Firebase](https://firebase.google.com/?gclid=Cj0KCQiAoY-PBhCNARIsABcz773A-bXdKNQCUUyOzVuLYuDWRCamvu0O7k0cwFPE_c2f_leufaF2ZY0aAqEDEALw_wcB&gclsrc=aw.ds)
+    - **Firebase** is used as the backend for handling the social authentication of the app.
 
 ## Testing
 
@@ -82,12 +90,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The boiler template to start the project was sourced from a [Github Repository (@alamore)](https://github.com/alamorre/unichat-course).
 
-### Media
-- The photos used in this site were obtained from ...
+- The tutorial for completing the code along was offered by the [JavaScript Mastery YouTube channel](https://youtu.be/Bv9Js3QLOLY).
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Thanks to the JavaScript Mastery YouTube channel, I have been able to expand my practical knowledge on using React to build awesome web apps.
 
