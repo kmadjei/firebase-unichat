@@ -89,10 +89,37 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
     - user is able to view active chat rooms 
     - user creates a chatroom successfully when the add button is selected
         - creator of a chatroom adds new user participant successfully
-            - all chatroom participants are able to view each other's avatar, email ID, and current status
+            + all chatroom participants are able to view each other's avatar, email ID, and current status
         - sound notification activates while user is away from current chatroom activity
 
 ## Deployment
+
+### Local Environment
+1. Log in to GitHub and locate the GitHub repository of the project
+2. At the top of the repository page, select code and click "Clone or download".
+    1. To clone the repository using HTTPS
+        1. Under "Clone with HTTPS", copy the link
+        2. Open Git Bash
+        3. Change the current working directory to the location where you want the cloned directory to be made.
+        4. Type git clone, and then paste the URL you copied in previous the step
+        ```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
+        5. Press Enter. Your local clone will be created.
+    2. Selecting the download option
+        1. click `Download Zip`
+        2. Extract the project files from the zip file when you right click on it
+        3. You will now have access to the project files
+3. Open Git Bash and navigate to the root directory of the project
+4. Run `npm install` to install all the project modules and dependencies
+5. When completed run `npm start` to start up the local server with the url
+6. Navigate to the localhost url for the react application (usually @ http://localhost:3000) to launch it
+
+
+
+
+
+Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press Enter. Your local clone will be created.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
