@@ -86,7 +86,6 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
     - Need to implement media queries to resolve the issue
 
 
-
 ### UX tests
 
 - User first visit to the website:
@@ -100,7 +99,6 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
         - creator of a chatroom adds new user participant successfully
             + all chatroom participants are able to view each other's avatar, email ID, and current status
         - sound notification activates while user is away from current chatroom activity
-
 
 
 ## Deployment
@@ -141,7 +139,6 @@ Welcome to the chat application powered by Firebase, React JS, and Chat Engine A
 
 ### Content
 - The boiler template to start the project was sourced from a [Github Repository (@alamore)](https://github.com/alamorre/unichat-course).
-
 - The tutorial for completing the code along was offered by the [JavaScript Mastery YouTube channel](https://youtu.be/Bv9Js3QLOLY).
 
 
